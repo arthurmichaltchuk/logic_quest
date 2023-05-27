@@ -1,8 +1,13 @@
 body{
   margin:0px;
   padding: 0px;
-  background-color: #ffffff;
+  background-color: aqua;
 }
+
+html{
+  height: 100%;
+}
+
 *{
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif !important; 
@@ -65,15 +70,16 @@ nav li{
 }
 
 .navbar{
-  background-color: #254F97;
+  background-color: #00006a;
   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
   height: 90px !important;
 } 
 
 .logo img{
-  height: 50px;
+  height: 80px !important;
   width: auto;
   margin-left: 20px;
+  padding-bottom: 5px;
 }
 
 nav .menu-btn,
@@ -103,6 +109,69 @@ nav .menu-btn:checked ~ .menu{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.presentation {
+  background-color: antiquewhite;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxPresentation {
+  width: 420px;
+  height: 420px;
+  border-radius: 20px !important;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.3);
+  background-color: #00006a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.presentationImage{
+  width: 400px;
+  margin-left: 10px;
+}
+
+.presentationBtn{
+  background-color: #ffffff !important;
+  color: #00006a !important;
+  height: 80px;
+  width: 350px;
+  margin-left: 35px !important;
+  margin-top:50px;
+}
+
+.presentationBtn:hover{
+  background-color: #0099ff !important;
+  color: #fefeff !important;
+}
+
+.barra{
+  background-color: #1b1b1b;
+  height: 300px;
+}
+
+#about{
+  height: fit-content;
+  background-color:#1e1e1e;
+  display: grid;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+
+.about-text{
+  color: #fff;
+  list-style: circle;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .spacer{

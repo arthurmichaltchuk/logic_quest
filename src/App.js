@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Listagem from './components/Listagem';
 import SalaEspera from './components/SalaEspera';
 import Estudo from './components/Estudo/Estudo';
+import Conquistas from './components/Conquistas';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           <Route path='/listagem' element={<Listagem/>}></Route>
           <Route path='/espera' element={<SalaEspera/>}></Route>
           <Route path='/estudo' element={<Estudo/>}></Route>
-        </Routes>  
+          <Route path='/conquitas' element={<Conquistas/>}></Route>
+        </Routes>
         <Footer/>
 
       </BrowserRouter>
