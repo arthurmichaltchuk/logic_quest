@@ -25,15 +25,15 @@ function Home() {
 
             </div>
             <AboutHeader/>
-            <Container>
-                <Row>
-                    <h1>TITULO</h1>
-                </Row>
-                <Row>
-                    <p>texto</p>
+            <div className="presentationBotton">
+                <div className="conteudoBotton">
+                    <h1>Explicação do projeto e nossos objetivos!</h1>
+                    <p>Desenvolvemos um sistema que integra aluno e professor de uma única maneira e com um único objetivo, ficar no top 1 em nosso quiz, que abrange diversos conteúdos com perguntas variadas, uma maneira intuitiva e legal para aprender, com fotos, vídeos e figuras, para que, independentemente da pessoa consiga estudar do melhor jeito possível.</p>
+                    <p>Vale lembrar que o professor pode dar seu feedback sobre o assunto em tempo real, tendo assim uma melhor interatividade com seus alunos, mas não se esqueça, se você acertar todas as questões primeiro o topo do ranking te espera com a maior conquista, parabéns você é um Galo Cinza!!</p>
+                    <div class="linha"></div>
                     <p>Teste</p>
-                </Row>
-            </Container>
+                </div>
+            </div>
         </>
     );
 }
