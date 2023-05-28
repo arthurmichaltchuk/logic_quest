@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 // import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Listagem from './components/Listagem';
+import Listagem from './components/Listagem/Listagem';
 import SalaEspera from './components/SalaEspera';
 import Estudo from './components/Estudo/Estudo';
 import Conquistas from './components/Conquistas';

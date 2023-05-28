@@ -133,22 +133,43 @@ nav .menu-btn:checked ~ .menu{
 }
 
 .presentationImage{
-  width: 400px;
-  margin-left: 10px;
+  width: 380px;
+  margin: 20px;
+}
+
+.listagemItem {
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+  background-image: linear-gradient(to left, #00006a, #0000ff);
+  margin-top: 40px;
+}
+
+.listagemItemText{
+  color: #fff !important;
+  font-size: x-large !important;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .presentationBtn{
-  background-color: #ffffff !important;
-  color: #00006a !important;
+  background-color: #0099ff !important;
+  color: #ffffff   !important;
   height: 80px;
   width: 350px;
   margin-left: 35px !important;
   margin-top:50px;
+  font-size: xx-large !important;
+  font-weight: bolder !important;
 }
 
 .presentationBtn:hover{
-  background-color: #0099ff !important;
-  color: #fefeff !important;
+  background-color: limegreen !important;
+  color: #00006a !important;
 }
 
 .barra{
