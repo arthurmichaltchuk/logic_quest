@@ -31,6 +31,7 @@ function Home() {
                 </Row>
                 <Row>
                     <p>texto</p>
+                    <p>Teste</p>
                 </Row>
             </Container>
         </>
