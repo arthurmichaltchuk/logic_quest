@@ -33,7 +33,7 @@ function ListagemItem(props) {
                                 aria-label="Search"
                             />
                                 <a href="/espera">
-                                    <Button variant="outline-success">Jogar</Button>                                
+                                    <Button variant="outline-success">Jogar 2</Button>                                
                                 </a>
                         </Form>
                     </Navbar.Collapse>
