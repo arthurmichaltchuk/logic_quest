@@ -138,7 +138,7 @@ nav .menu-btn:checked~.menu {
 
 .presentationBotton {
   background-image: linear-gradient(to top, #BADEFF 0%, #5A7DF1 50%, #00006A 100%);
-  height: 700px;
+  height: 100%;
   display: flexbox;
 }
 
@@ -147,6 +147,7 @@ nav .menu-btn:checked~.menu {
   width: 100%;
   border-radius: 10px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .conteudoBotton {
@@ -156,13 +157,13 @@ nav .menu-btn:checked~.menu {
 
 .conteudoBotton h1 {
   font-size: 40px;
-  color: #BADEFF;
+  color: #ffffff;
 }
 
 .conteudoBotton p {
   margin-top: 50px;
   font-size: 20px;
-  color: #BADEFF;
+  color: #ffffff;
 }
 
 .boxPresentation {
@@ -232,6 +233,11 @@ nav .menu-btn:checked~.menu {
   text-align: center;
 }
 
+#footer {
+  width: 100%;
+  height: 80px;
+  background-color: #00006A;
+}
 
 .about-text {
   color: #fff;
