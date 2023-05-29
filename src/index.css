@@ -136,8 +136,23 @@ nav .menu-btn:checked~.menu {
   justify-content: center;
 }
 
+.imageFooter{
+  margin-top: 10px;
+  height: 80px;
+}
+
 .iconEspera{
   font-size: 100px;
+}
+
+.iconsFooter{
+  float: right;
+  margin: 30px;
+}
+
+.iconFooter{
+  margin: 5px;
+  font-size: xx-large;
 }
 
 .presentationListagem {
@@ -389,13 +404,6 @@ nav .menu-btn:checked~.menu {
 }
 
 @media(max-width:1000px) {
-  .imageFooter {
-    margin-top: 55px;
-    margin-bottom: 40px;
-    height: 65px;
-    width: auto;
-  }
-
   .spacer {
     height: 70px;
   }
