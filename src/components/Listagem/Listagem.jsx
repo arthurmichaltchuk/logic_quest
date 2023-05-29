@@ -1,7 +1,5 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import ListagemItem from "./ListagemItem";
-import Footer from "../Footer.jsx";
 
 function Listagem() {
     return (

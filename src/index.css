@@ -121,19 +121,23 @@ nav .menu-btn:checked~.menu {
 }
 
 .presentation {
-  background-color: antiquewhite;
+  background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
   height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.presentation {
+.fundoEspera {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
   height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.iconEspera{
+  font-size: 100px;
 }
 
 .presentationListagem {

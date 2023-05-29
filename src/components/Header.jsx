@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Nav, Container } from 'react-bootstrap';
 import React from 'react';
 import { useRef } from 'react';
-import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/images/logoLogicQuest.png';
 
 function Header() {
