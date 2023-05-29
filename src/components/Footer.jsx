@@ -13,10 +13,10 @@ function Footer(){
                     </Col>
                     <Col>
                         <div className="iconsFooter">
-                            <a href='https://www.facebook.com/drdbusinessbr?mibextid=LQQJ4d'>
+                            <a href='/'>
                                 <BsFacebook className='iconFooter'/>
                             </a>
-                            <a href='https://instagram.com/drd.business?igshid=YmMyMTA2M2Y='>
+                            <a href='/'>
                                 <BsInstagram className='iconFooter'/>
                             </a>
                             <a href='/'>
