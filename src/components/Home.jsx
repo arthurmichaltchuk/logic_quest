@@ -13,19 +13,19 @@ function Home() {
                     <div className="boxPresentation">
                         <Row>
                             <Col>
-                                <img src={logo} className="presentationImage" alt="Logo"/>
+                                <img src={logo} className="presentationImage" alt="Logo" />
                             </Col>
                             <Col>
                                 <a href="/listagem">
-                                    <Button className="presentationBtn">JOGAR</Button>{' '}                                    
+                                    <Button className="presentationBtn">JOGAR</Button>{' '}
                                 </a>
                             </Col>
                         </Row>
                     </div>
-                </Container>   
+                </Container>
 
             </div>
-            <AboutHeader/>
+            <AboutHeader />
             <div className="presentationBotton">
                 <div className="conteudoBotton">
                     <h1>Explicação do projeto e nossos objetivos!</h1>
@@ -36,7 +36,6 @@ function Home() {
                     <p>Olá, somos os Vetoriosos, nossa equipe está desenvolvendo um projeto de objetos virtuais de aprendizagem. Escolhemos essa ideia para ter uma dinâmica melhor nas aulas e todos conseguirem aprender de uma forma divertida a programar e ter um bom entendimento do conteúdo no qual temos dificuldade.</p>
                 </div>
             </div>
-            <Footer/>
         </>
     );
 }
