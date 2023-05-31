@@ -1,10 +1,5 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: aqua;
-}
-
 html {
+  background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
   height: 100%;
 }
 
@@ -122,7 +117,7 @@ nav .menu-btn:checked~.menu {
 
 .presentation {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  height: 700px;
+  height: 520px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,7 +125,7 @@ nav .menu-btn:checked~.menu {
 
 .fundoEspera {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  height: 700px;
+  height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,28 +133,37 @@ nav .menu-btn:checked~.menu {
 
 .fundo {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  height: 600px;
 }
 
-.estudoBody{
-  height: 470px;
+.estudoBody {
+  padding: 5% 0 5% 0;
+  height: 330px;
 }
 
-.imageFooter{
+.estudoBody img {
+  height: 330px;
+  width: 300px;
+}
+
+.estudoBody h1 {
+  font-size: 25px;
+}
+
+.imageFooter {
   margin-top: 10px;
   height: 80px;
 }
 
-.iconEspera{
+.iconEspera {
   font-size: 100px;
 }
 
-.iconsFooter{
+.iconsFooter {
   float: right;
   margin: 30px;
 }
 
-.iconFooter{
+.iconFooter {
   margin: 5px;
   font-size: xx-large;
 }
@@ -170,40 +174,42 @@ nav .menu-btn:checked~.menu {
 }
 
 .presentationBotton {
-  background-image: linear-gradient(to top, #BADEFF 0%, #5A7DF1 50%, #00006A 100%);
+  background-image: linear-gradient(to top, #BADEFF 0%, #5A7DF1 10%, #00006A 100%);
   height: 100%;
   display: flexbox;
 }
 
-.progressBar{
+.progressBar {
   --bs-progress-bar-bg: limegreen !important;
   height: 25px !important;
-  margin: 10px;
+  width: 100%;
+  position: relative;
+  bottom: 20%;
 }
 
-.btnProximo{
-  height: 80px !important;
+.btnProximo {
+  height: 70px;
   width: 100%;
   background-color: limegreen !important;
-  border-radius: 0 !important;
-  border-color: #000000 !important;
+  border-radius: 0;
+  border-color: #000000;
   border: 0 !important;
 }
 
-.colEstudo{
+.colEstudo {
   padding: 0 !important;
   margin-left: -6 !important;
 }
 
-.rowEstudo{
+.rowEstudo {
   --bs-gutter-x: 0 !important;
 }
 
-.btnAnterior{
-  height: 80px !important;
+.btnAnterior {
+  height: 70px !important;
   width: 100%;
   background-color: rgb(255, 0, 0) !important;
-  border-radius: 0 !important;
+  border-radius: 0;
   border-color: #000000 !important;
   border: 0 !important;
 }
@@ -306,15 +312,7 @@ nav .menu-btn:checked~.menu {
 
 #footer {
   width: 100%;
-  height: 100px;
   background-color: #00006A;
-}
-
-#footer p {
-  padding-top: 35px;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
 }
 
 .about-text {
@@ -351,7 +349,7 @@ nav .menu-btn:checked~.menu {
 @media(max-width:570px) {
   .imageFooter {
     margin-top: 55px;
-    height: 50px;
+    height: 45px;
     width: auto;
   }
 

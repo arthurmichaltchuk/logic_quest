@@ -10,7 +10,8 @@ function Estudo() {
     function page1ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>1</h1>
+                <h1>A sobrecarga de métodos e construtores é um recurso da programação orientada a objetos que permite criar vários métodos ou construtores com o mesmo nome, mas com diferentes parâmetros. Cada versão sobrecarregada de um método ou construtor possui uma assinatura única, que é determinada pela lista de tipos e/ou quantidade de parâmetros.
+                </h1>
             </div>
         );
     }
@@ -18,15 +19,16 @@ function Estudo() {
     function page2ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>2</h1>
-            </div>
-        );
+                <h1>A sobrecarga de métodos é útil quando você deseja fornecer diferentes formas de usar um método, adaptando-o para diferentes tipos de dados ou comportamentos. Isso aumenta a flexibilidade e a legibilidade do código, permitindo que você chame o mesmo método com diferentes argumentos.<br /><br />
+                Para utilizar a sobrecarga de métodos, basta criar métodos com o mesmo nome, mas diferentes listas de parâmetros. O compilador determinará qual versão do método deve ser chamada com base nos tipos de argumentos fornecidos.</h1>
+            </div>);
     }
 
     function page3ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>3</h1>
+            // Ajuda aí pfvr ****
+            <div className="estudoBody"> 
+                <img src="../assets/images/polimorf.png" alt="polimorfismo" />
             </div>
         );
     }
@@ -116,6 +118,7 @@ function Estudo() {
                     </Col>
                 </Row>
             </div>
+
         </>
     );
 }
