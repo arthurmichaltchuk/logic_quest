@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Button, Col, Container, ProgressBar, Row } from "react-bootstrap";
+import ReactPlayer from 'react-player';
+import Polimorf from '../../assets/images/polimorf.png';
 
 function Estudo() {
 
@@ -10,7 +12,8 @@ function Estudo() {
     function page1ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>A sobrecarga de métodos e construtores é um recurso da programação orientada a objetos que permite criar vários métodos ou construtores com o mesmo nome, mas com diferentes parâmetros. Cada versão sobrecarregada de um método ou construtor possui uma assinatura única, que é determinada pela lista de tipos e/ou quantidade de parâmetros.
+                <h1>O polimorfismo é um conceito fundamental na programação orientada a objetos (POO) que permite que objetos de diferentes classes sejam tratados de maneira uniforme, como se fossem do mesmo tipo. Em outras palavras, o polimorfismo permite que um objeto seja referenciado por meio de uma interface comum, independentemente de sua classe concreta.
+                    <br /><br />O termo "polimorfismo" vem das palavras gregas "poli" (muitos) e "morphos" (formas). Ele reflete a ideia de que um objeto pode assumir muitas formas, dependendo do contexto em que é usado.
                 </h1>
             </div>
         );
@@ -19,16 +22,16 @@ function Estudo() {
     function page2ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>A sobrecarga de métodos é útil quando você deseja fornecer diferentes formas de usar um método, adaptando-o para diferentes tipos de dados ou comportamentos. Isso aumenta a flexibilidade e a legibilidade do código, permitindo que você chame o mesmo método com diferentes argumentos.<br /><br />
-                Para utilizar a sobrecarga de métodos, basta criar métodos com o mesmo nome, mas diferentes listas de parâmetros. O compilador determinará qual versão do método deve ser chamada com base nos tipos de argumentos fornecidos.</h1>
-            </div>);
+                <h1>O polimorfismo é alcançado por meio de mecanismos como herança, interfaces, sobrescrita de métodos e sobrecarga de métodos. Esses mecanismos permitem que diferentes objetos compartilhem uma mesma interface ou comportamento comum, mas possuam implementações específicas.</h1>
+            </div>
+        );
     }
 
     function page3ModalCadastro() {
         return (
             // Ajuda aí pfvr ****
-            <div className="estudoBody"> 
-                <img src="../assets/images/polimorf.png" alt="polimorfismo" />
+            <div className="estudoBody">
+                <h1>Polimorfismo de Substituição (ou polimorfismo de tipo): Também conhecido como polimorfismo estático, ocorre quando uma classe derivada substitui um método de sua classe base. Nesse caso, o objeto pode ser tratado como uma instância da classe base ou da classe derivada, dependendo do contexto. O polimorfismo de substituição é uma característica inerente à hierarquia de classes e é alcançado por meio da palavra-chave 'override'.</h1>
             </div>
         );
     }
@@ -36,23 +39,26 @@ function Estudo() {
     function page4ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>4</h1>
+                <h1>Polimorfismo de Sobrecarga (ou polimorfismo de parâmetros): Esse tipo de polimorfismo ocorre quando uma classe possui vários métodos com o mesmo nome, mas com parâmetros diferentes. Cada método pode executar uma ação específica com base nos parâmetros fornecidos. Durante a compilação, o compilador decide qual método deve ser chamado com base nos argumentos passados.</h1>
             </div>
         );
     }
 
     function page5ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>5</h1>
+            <div className="estudoBodyVideo">
+                <ReactPlayer url="https://www.youtube.com/watch?v=JjIqcPyVO0o&ab_channel=RalfLima" width="640px" height="360px" />
             </div>
         );
     }
 
     function page6ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>6</h1>
+            <div className="estudoBodyPoli">
+                <div className="imagemPolim">
+                    <img src={Polimorf} alt="Descrição da imagem" />
+                </div>
+
             </div>
         );
     }

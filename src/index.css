@@ -140,9 +140,24 @@ nav .menu-btn:checked~.menu {
   height: 330px;
 }
 
+.estudoBodyPoli {
+  padding: 5% 0 12% 0;
+  height: 100%;
+}
+.estudoBodyVideo {
+  padding: 5% 0 5% 20%;
+  height: 100%;
+}
+
 .estudoBody img {
   height: 330px;
   width: 300px;
+}
+
+.imagemPolim {
+  padding-left: 31%;
+  height: 330px;
+  width: 300px;   
 }
 
 .estudoBody h1 {

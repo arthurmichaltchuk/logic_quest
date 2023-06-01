@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import logo from '../assets/images/logoLogicQuest.png';
 import Button from 'react-bootstrap/Button';
 import AboutHeader from './AboutHeader.jsx'
-import Footer from './Footer.jsx'
 
 function Home() {
     return (
