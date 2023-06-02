@@ -9,6 +9,8 @@ import Listagem from './components/Listagem/Listagem';
 import SalaEspera from './components/SalaEspera';
 import Estudo from './components/Estudo/Estudo';
 import Conquistas from './components/Conquistas';
+import Perguntas from './components/Perguntas/Perguntas.jsx';
+import Ranking from './components/Ranking';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path='/espera' element={<SalaEspera/>}></Route>
           <Route path='/estudo' element={<Estudo/>}></Route>
           <Route path='/conquitas' element={<Conquistas/>}></Route>
+          <Route path='/ranking' element={<Ranking/>}></Route>
+          <Route path='/perguntas' element={<Perguntas/>}></Route>
         </Routes>
         <Footer/>
 
