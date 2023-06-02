@@ -125,7 +125,7 @@ nav .menu-btn:checked~.menu {
 
 .fundoEspera {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  height: 420px;
+  height: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,7 +137,7 @@ nav .menu-btn:checked~.menu {
 
 .estudoBody {
   padding: 5% 0 5% 0;
-  height: 330px;
+  min-height: 500px;
 }
 
 .estudoBodyPoli {
@@ -199,16 +199,47 @@ nav .menu-btn:checked~.menu {
   height: 25px !important;
   width: 100%;
   position: relative;
-  bottom: 20%;
+  margin-bottom: 20px;
+}
+
+.btnForm{
+  height: 70px;
+  width: 100%;
+  border-radius: 0 !important;
+  border-color: #000000;
+  border: 0 !important;
 }
 
 .btnProximo {
-  height: 70px;
-  width: 100%;
   background-color: limegreen !important;
-  border-radius: 0;
-  border-color: #000000;
-  border: 0 !important;
+}
+
+.btnAnterior {
+  background-color: rgb(255, 0, 0) !important;
+}
+
+.btn1 {
+  background-image: linear-gradient(to left, #ff2828 0%, #ff0000 10%, #700000 100%) !important;
+  color: #000000 !important;
+  height: 80px !important; 
+}
+
+.btn2 {
+  background-image: linear-gradient(to right, #00b7ff 0%, #00a7f5 10%, #00006A 100%) !important;
+  color: #000000 !important;
+  height: 80px !important; 
+}
+
+.btn3 {
+  background-image: linear-gradient(to left, #ffd000 0%, #fffb00 10%, #a57900 100%) !important;
+  color: #000000 !important;
+  height: 80px !important; 
+}
+
+.btn4 {
+  background-image: linear-gradient(to right, #ffa600 0%, #f5c800 10%, #ff3300 100%) !important;
+  color: #000000 !important;
+  height: 80px !important; 
 }
 
 .colEstudo {
@@ -218,15 +249,6 @@ nav .menu-btn:checked~.menu {
 
 .rowEstudo {
   --bs-gutter-x: 0 !important;
-}
-
-.btnAnterior {
-  height: 70px !important;
-  width: 100%;
-  background-color: rgb(255, 0, 0) !important;
-  border-radius: 0;
-  border-color: #000000 !important;
-  border: 0 !important;
 }
 
 .linha {

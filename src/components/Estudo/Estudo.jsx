@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Col, Container, ProgressBar, Row } from "react-bootstrap";
 import ReactPlayer from 'react-player';
 import Polimorf from '../../assets/images/polimorf.png';
@@ -8,6 +8,12 @@ function Estudo() {
     const [currentPage, setCurrentPage] = useState(1);
     let modalBody;
     let progress = 0;
+
+    useEffect(() =>{
+        setTimeout(() => {
+            window.location.href = "/perguntas";
+        }, "10000");
+    }, [])   
 
     function page1ModalCadastro() {
         return (
@@ -29,7 +35,7 @@ function Estudo() {
 
     function page3ModalCadastro() {
         return (
-            // Ajuda aí pfvr ****
+            // Ajuda aí pfvr **** :D
             <div className="estudoBody">
                 <h1>Polimorfismo de Substituição (ou polimorfismo de tipo): Também conhecido como polimorfismo estático, ocorre quando uma classe derivada substitui um método de sua classe base. Nesse caso, o objeto pode ser tratado como uma instância da classe base ou da classe derivada, dependendo do contexto. O polimorfismo de substituição é uma característica inerente à hierarquia de classes e é alcançado por meio da palavra-chave 'override'.</h1>
             </div>
@@ -104,21 +110,19 @@ function Estudo() {
             <div className="fundo">
                 <Container>
                     {modalBody}
+                    <ProgressBar now={progress} className="progressBar" />
                 </Container>
-
-
-                <ProgressBar now={progress} className="progressBar" />
 
                 <Row className="rowEstudo">
                     {currentPage !== 1 && (
                         <Col className="colEstudo">
-                            <Button className="btnAnterior" onClick={handlePreviusClick}>
+                            <Button className="btnForm btnAnterior" onClick={handlePreviusClick}>
                                 Voltar
                             </Button>
                         </Col>
                     )}
                     <Col className="colEstudo">
-                        <Button className="btnProximo" onClick={handleNextClick}>
+                        <Button className="btnForm btnProximo" onClick={handleNextClick}>
                             Próximo
                         </Button>
                     </Col>
