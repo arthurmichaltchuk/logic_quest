@@ -6,6 +6,7 @@ html {
 * {
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif !important;
+  color: #000000;
 }
 
 ul {
@@ -123,16 +124,26 @@ nav .menu-btn:checked~.menu {
   justify-content: center;
 }
 
-.fundoEspera {
+.fundo {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  height: 650px;
+  min-height: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fundo {
+.fundoBtns {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
+}
+
+.ItemCard{
+  min-width: 300px !important;
+  min-height: 350px !important;
+  margin: 10px;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  background-image: linear-gradient(to top, #00b7ff 0%, #5A7DF1 50%, #d7ecff 100%);
 }
 
 .estudoBody {
@@ -338,6 +349,30 @@ nav .menu-btn:checked~.menu {
   height: 300px;
 }
 
+.rankingBody {
+  height: 700px;
+}
+
+.Card {
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);  
+}
+
+.rankingCard1 {
+  background-image: linear-gradient(to top, #584a00 0%, #ac9200 10%, #ffd900 100%);
+  height: 500px;
+}
+
+.rankingCard2 {
+  background-image: linear-gradient(to top, #226b00 0%, #10c500 10%, #73ff00 100%);
+  height: 600px;
+}
+
+.rankingCard3 {
+  background-image: linear-gradient(to top, #580600 0%, #a80000 10%, #ff0000 100%);
+  height: 400px;
+}
+
 #about {
   height: fit-content;
   background-color: #1e1e1e;
@@ -353,7 +388,7 @@ nav .menu-btn:checked~.menu {
 }
 
 .about-text {
-  color: #fff;
+  color: #fff !important;
   list-style: circle;
   text-align: center;
   margin-top: 50px;

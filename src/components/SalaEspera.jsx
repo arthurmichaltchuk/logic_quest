@@ -17,7 +17,7 @@ function SalaEspera() {
 
     return (
         <>
-            <div className="fundoEspera" onClick={handleClick}>
+            <div className="fundo" onClick={handleClick}>
                 <Row style={{textAlign:"center"}}>
                     <Col md="12">
                         <h1>Aguardando jogadores</h1>                   
