@@ -62,6 +62,7 @@ function Estudo() {
         return (
             <div className="estudoBodyPoli">
                 <div className="imagemPolim">
+                    <h4>Exemplo de polimorfismo: </h4>
                     <img src={Polimorf} alt="Descrição da imagem" />
                 </div>
 
