@@ -11,7 +11,7 @@ function Perguntas() {
     let modalBody;
     let progress = 0;
     let perguntas = [[],
-    ['1 1', '1 2', '1 3', '1 4'], //RESPOSTAS 1
+    ['É a capacidade de uma classe herdar de múltiplas classes', 'É a capacidade de uma classe ter várias formas ou comportamentos', 'É a capacidade de uma classe ser abstrata', 'É a capacidade de uma classe ter vários construtores.'], //RESPOSTAS 1
     ['2 1', '2 2', '2 3', '2 4'], //RESPOSTAS 2
     ['3 1', '3 2', '3 3', '3 4'], //RESPOSTAS 3
     ['41', '4 2', '4 3', '4 4'], //RESPOSTAS 4
@@ -128,12 +128,12 @@ function Perguntas() {
 
                         <Col className="colEstudo">
                             <Button className="btnForm btn1" onClick={() => handleClick(1)}>
-                                {perguntas[currentPage] && <p>É a capacidade de uma classe herdar de múltiplas classes</p>}
+                                {perguntas[currentPage] && perguntas[currentPage][0]}
                             </Button>
                         </Col>
                         <Col className="colEstudo">
                             <Button className="btnForm btn2" onClick={() => handleClick(2)}>
-                                {perguntas[currentPage] && <p>É a capacidade de uma classe ter várias formas ou comportamentos</p>}
+                                {perguntas[currentPage] && perguntas[currentPage][1]}
                             </Button>
                         </Col>
                     </Row>
@@ -141,12 +141,12 @@ function Perguntas() {
 
                         <Col className="colEstudo">
                             <Button className="btnForm btn3" onClick={() => handleClick(3)}>
-                                {perguntas[currentPage] && <p>É a capacidade de uma classe ser abstrata</p>}
+                                {perguntas[currentPage] && perguntas[currentPage][2]}
                             </Button>
                         </Col>
                         <Col className="colEstudo">
                             <Button className="btnForm btn4" onClick={() => handleClick(4)}>
-                                {perguntas[currentPage] && <p> É a capacidade de uma classe ter vários construtores.</p>}
+                                {perguntas[currentPage] && perguntas[currentPage][3]}
                             </Button>
                         </Col>
                     </Row>

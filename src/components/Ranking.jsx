@@ -15,21 +15,21 @@ function Ranking() {
                     <Row>
                         <Col className="backRanking" style={{ margin: '60px 0 0 0'}} >
                             <h1 style={{ marginTop: '20px' }}>Carol</h1>
-                            <div className="Card rankingCard1">
+                            <div className="Card">
                                 <img className="mt-2" height={150} src={medalhaPrata} alt="Img" />
                                 <h2 className="pt-5">60 pontos</h2>
                             </div>
                         </Col>
                         <Col className="backRanking" style={{ padding: '15px 0 0 0' }}>
                             <h1 style={{ marginTop: '5px' }}>Arthur</h1>
-                            <div className="Card rankingCard2">
+                            <div className="Card">
                                 <img className="mt-2" height={150} src={medalhaOuro} alt="Img" />
                                 <h2 className="pt-5">90 pontos</h2>
                             </div>
                         </Col>
                         <Col className="backRanking" style={{ margin: '150px 0 0 0' }}>
                             <h1 style={{ marginTop: '20px' }}>Augusto</h1>
-                            <div className="Card rankingCard3">
+                            <div className="Card">
                                 <img className="mt-2" height={150} src={medalhaBronze} alt="Img" />
                                 <h2 className="pt-5">20 pontos</h2>
                             </div>

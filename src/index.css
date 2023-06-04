@@ -6,6 +6,7 @@ html {
 * {
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif !important;
+  color: #000000;
 }
 
 ul {
@@ -147,8 +148,29 @@ nav .menu-btn:checked~.menu {
 
 .fundo {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  width: 100%;
-  color: #000000;
+  min-height: 650px;
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ItemCard{
+  min-width: 300px !important;
+  min-height: 350px !important;
+  margin: 10px;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  background-image: linear-gradient(to top, #00b7ff 0%, #5A7DF1 50%, #d7ecff 100%);
+}
+
+.rankingBody {
+  height: 700px;
+}
+
+.Card {
+  border-radius: 15px;
 }
 
 .backRanking {
@@ -156,6 +178,11 @@ nav .menu-btn:checked~.menu {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   color: #fff;
+  border: 2px solid #000000;
+}
+
+.colSolution{
+  margin-bottom: 20px;
 }
 
 .estudoBody {
@@ -170,7 +197,6 @@ nav .menu-btn:checked~.menu {
 
 .questBody h1 {
   font-size: 25px;
-  color: #000000;
 }
 
 .estudoBodyCont {
@@ -179,18 +205,20 @@ nav .menu-btn:checked~.menu {
 }
 
 .estudoBody h1 {
-  color: #000000;
   font-size: 25px;
 }
 
 .estudoBodyCont h1 {
-  color: #000000;
   font-size: 25px;
 }
 
 .estudoBodyPoli {
-  padding: 5% 0 5% 0;
+  width: 100% !important;
   height: 100%;
+}
+
+.fundoBtns{
+  width: 100%;
 }
 
 .estudoBodyVideo {
@@ -207,6 +235,7 @@ nav .menu-btn:checked~.menu {
   display: flex;
   height: 330px;
   width: 300px;
+  margin-bottom: 30px;
 }
 
 .imagemPolim h4 {
@@ -231,6 +260,7 @@ nav .menu-btn:checked~.menu {
 .iconFooter {
   margin: 5px;
   font-size: xx-large;
+  color: #0099ff !important;
 }
 
 .presentationListagem {
