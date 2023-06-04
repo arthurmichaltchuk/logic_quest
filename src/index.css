@@ -129,6 +129,7 @@ nav .menu-btn:checked~.menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #000000;
 }
 
 .fundoEsperaRanking {
@@ -147,22 +148,37 @@ nav .menu-btn:checked~.menu {
 
 .fundo {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-}
-
-
-.podio img {
-  padding: 5%;
-  height: 500px;
+  width: 100%;
 }
 
 .estudoBody {
+  padding: 5% 0 5% 0;
+  height: 100%;
+}
+
+.questBody {
+  padding: 5% 0 5% 0;
+  height: 220px;
+}
+
+.questBody h1 {
+  font-size: 25px;
+  color: #000000;
+}
+
+.estudoBodyCont {
   padding: 5% 0 5% 0;
   height: 310px;
 }
 
 .estudoBody h1 {
   color: #000000;
-  font-size: large;
+  font-size: 25px;
+}
+
+.estudoBodyCont h1 {
+  color: #000000;
+  font-size: 25px;
 }
 
 .estudoBodyPoli {
@@ -188,10 +204,7 @@ nav .menu-btn:checked~.menu {
 
 .imagemPolim h4 {
   padding-right: 80%;
-}
-
-.estudoBody h1 {
-  font-size: 25px;
+  color: #000000;
 }
 
 .imageFooter {

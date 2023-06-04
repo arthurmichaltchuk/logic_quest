@@ -21,16 +21,16 @@ function Perguntas() {
 
     function page1ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>1</h1>
+            <div className="questBody">
+                <h1>1. O que é polimorfismo em programação orientada a objetos?</h1>
             </div>
         );
     }
 
     function page2ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>2</h1>
+            <div className="questBody">
+                <h1>2. Qual é o princípio de polimorfismo que permite que um objeto de uma classe derivada seja tratado como um objeto da classe base?</h1>
             </div>
         );
     }
@@ -38,31 +38,42 @@ function Perguntas() {
     function page3ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>3</h1>
+                <h1>3. Qual é a diferença entre polimorfismo estático e polimorfismo dinâmico?
+                    <br /><br />
+                    I. Polimorfismo estático é resolvido em tempo de compilação, enquanto polimorfismo dinâmico é resolvido em tempo de execução.
+                    <br /><br />
+                    II. Polimorfismo estático é resolvido em tempo de execução, enquanto polimorfismo dinâmico é resolvido em tempo de compilação.
+                    <br /><br />
+                    III. Polimorfismo estático e polimorfismo dinâmico são resolvidos em tempo de compilação.
+                    <br /><br />
+                    IV. Polimorfismo estático e polimorfismo dinâmico são resolvidos em tempo de execução.
+                    <br /><br />
+                    Selecione a opção correta (apenas uma é correta):
+                </h1>
             </div>
         );
     }
 
     function page4ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>4</h1>
+            <div className="questBody">
+                <h1>4. Qual é o termo usado para descrever a capacidade de uma classe derivada fornecer uma implementação específica de um método definido em sua classe base?</h1>
             </div>
         );
     }
 
     function page5ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>5</h1>
+            <div className="questBody">
+                <h1>5. O que é sobreposição (overriding) em relação ao polimorfismo em C#?</h1>
             </div>
         );
     }
 
     function page6ModalCadastro() {
         return (
-            <div className="estudoBody">
-                <h1>6</h1>
+            <div className="questBody">
+                <h1>6. Em C#, qual é a palavra-chave usada para indicar que um método está sendo sobreposto (overridden) em uma classe derivada?</h1>
             </div>
         );
     }
@@ -117,12 +128,12 @@ function Perguntas() {
 
                         <Col className="colEstudo">
                             <Button className="btnForm btn1" onClick={() => handleClick(1)}>
-                                {perguntas[currentPage] && perguntas[currentPage][0]}
+                                {perguntas[currentPage] && <p>É a capacidade de uma classe herdar de múltiplas classes</p>}
                             </Button>
                         </Col>
                         <Col className="colEstudo">
                             <Button className="btnForm btn2" onClick={() => handleClick(2)}>
-                                {perguntas[currentPage] && perguntas[currentPage][1]}
+                                {perguntas[currentPage] && <p>É a capacidade de uma classe ter várias formas ou comportamentos</p>}
                             </Button>
                         </Col>
                     </Row>
@@ -130,12 +141,12 @@ function Perguntas() {
 
                         <Col className="colEstudo">
                             <Button className="btnForm btn3" onClick={() => handleClick(3)}>
-                                {perguntas[currentPage] && perguntas[currentPage][0]}
+                                {perguntas[currentPage] && <p>É a capacidade de uma classe ser abstrata</p>}
                             </Button>
                         </Col>
                         <Col className="colEstudo">
                             <Button className="btnForm btn4" onClick={() => handleClick(4)}>
-                                {perguntas[currentPage] && perguntas[currentPage][1]}
+                                {perguntas[currentPage] && <p> É a capacidade de uma classe ter vários construtores.</p>}
                             </Button>
                         </Col>
                     </Row>

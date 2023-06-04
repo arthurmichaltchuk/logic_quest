@@ -17,7 +17,7 @@ function Estudo() {
 
     function page1ModalCadastro() {
         return (
-            <div className="estudoBody">
+            <div className="estudoBodyCont">
                 <h1>
                     O polimorfismo é um conceito fundamental na programação orientada a objetos. Ele se refere à capacidade de uma classe ter várias formas ou comportamentos. Por meio da herança, um objeto de uma classe derivada pode ser tratado como um objeto da classe base. Esse princípio de polimorfismo é conhecido como herança.
                 </h1>
@@ -27,7 +27,7 @@ function Estudo() {
 
     function page2ModalCadastro() {
         return (
-            <div className="estudoBody">
+            <div className="estudoBodyCont">
                 <h1>Existem duas formas de polimorfismo: estático e dinâmico. O polimorfismo estático é resolvido em tempo de compilação, enquanto o polimorfismo dinâmico é resolvido em tempo de execução. No polimorfismo estático, as decisões são tomadas com base nos tipos estáticos dos objetos, enquanto no polimorfismo dinâmico as decisões são tomadas com base nos tipos reais dos objetos em tempo de execução.</h1>
             </div>
         );
@@ -36,7 +36,7 @@ function Estudo() {
     function page3ModalCadastro() {
         return (
             // Ajuda aí pfvr **** :D
-            <div className="estudoBody">
+            <div className="estudoBodyCont">
                 <h1>Uma das características do polimorfismo é a sobreposição (overriding). A sobreposição ocorre quando uma classe derivada fornece uma implementação específica de um método definido em sua classe base. Isso permite que a classe derivada substitua o comportamento padrão da classe base com sua própria implementação.</h1>
             </div>
         );
@@ -44,7 +44,7 @@ function Estudo() {
 
     function page4ModalCadastro() {
         return (
-            <div className="estudoBody">
+            <div className="estudoBodyCont">
                 <h1>Em C#, a palavra-chave usada para indicar que um método está sendo sobreposto (overridden) em uma classe derivada é "override". Essa palavra-chave informa ao compilador que a implementação do método na classe derivada está substituindo a implementação da classe base.</h1>
             </div>
         );
