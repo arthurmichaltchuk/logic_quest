@@ -12,11 +12,11 @@ function Perguntas() {
     let progress = 0;
     let perguntas = [[],
     ['É a capacidade de uma classe herdar de múltiplas classes', 'É a capacidade de uma classe ter várias formas ou comportamentos', 'É a capacidade de uma classe ser abstrata', 'É a capacidade de uma classe ter vários construtores.'], //RESPOSTAS 1
-    ['2 1', '2 2', '2 3', '2 4'], //RESPOSTAS 2
-    ['3 1', '3 2', '3 3', '3 4'], //RESPOSTAS 3
-    ['41', '4 2', '4 3', '4 4'], //RESPOSTAS 4
-    ['5 1', '5 2', '5 3', '5 4'], //RESPOSTAS 5
-    ['6 1', '6 2', '6 3', '6 4'], //RESPOSTAS 6
+    ['Encapsulamento', 'Herança', 'Abstração', 'Sobrecarga'], //RESPOSTAS 2
+    [' I ', ' II ', ' III ', ' IV '], //RESPOSTAS 3
+    ['Sobrecarga', 'Herança múltipla', 'Polimorfismo de sobrecarga', 'Polimorfismo de sobreposição (ou overriding)'], //RESPOSTAS 4
+    ['É a capacidade de uma classe derivada ter várias formas ou comportamentos', 'É a capacidade de uma classe derivada ter vários construtores', 'É a capacidade de uma classe derivada substituir um método da classe base com sua própria implementação', 'É a capacidade de uma classe derivada herdar de várias classes base'], //RESPOSTAS 5
+    ['override', 'virtual', 'abstract', 'base'], //RESPOSTAS 6
     ];
 
     function page1ModalCadastro() {
