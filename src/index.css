@@ -137,18 +137,25 @@ nav .menu-btn:checked~.menu {
   padding: 5% 0 0 0;
   height: 100%;
   display: flex;
-
-
 }
 
-.fundoEsperaRanking img {
-  padding: 0 5%;
-  height: 50px;
+
+.ranking {
+  margin: 5% 0 2% 31%;
+  height: 80px;
 }
 
 .fundo {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
   width: 100%;
+  color: #000000;
+}
+
+.backRanking {
+  background-color: #00006a;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: #fff;
 }
 
 .estudoBody {
@@ -158,7 +165,7 @@ nav .menu-btn:checked~.menu {
 
 .questBody {
   padding: 5% 0 5% 0;
-  height: 220px;
+  height: 200px;
 }
 
 .questBody h1 {
@@ -168,7 +175,7 @@ nav .menu-btn:checked~.menu {
 
 .estudoBodyCont {
   padding: 5% 0 5% 0;
-  height: 310px;
+  height: 290px;
 }
 
 .estudoBody h1 {
@@ -238,7 +245,7 @@ nav .menu-btn:checked~.menu {
 }
 
 .progressBar {
-  --bs-progress-bar-bg: limegreen !important;
+  --mdb-progress-bar-bg: limegreen !important;
   height: 25px !important;
   width: 100%;
   position: relative;
@@ -353,6 +360,7 @@ nav .menu-btn:checked~.menu {
   display: flex;
   justify-content: center;
   padding-top: 40px;
+  color: #000000;
 }
 
 .alinhaLista {
@@ -369,6 +377,7 @@ nav .menu-btn:checked~.menu {
   margin-top: 50px;
   font-size: xx-large !important;
   font-weight: bolder !important;
+  border-radius: 50px !important;
 }
 
 .presentationBtn:hover {
