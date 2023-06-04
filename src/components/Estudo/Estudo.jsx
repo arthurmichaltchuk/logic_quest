@@ -108,7 +108,7 @@ function Estudo() {
 
     return (
         <>
-            <div className="fundo">
+            <div className="fundoBtns">
                 <Container>
                     {modalBody}
                     <ProgressBar now={progress} className="progressBar" />

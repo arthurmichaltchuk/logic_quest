@@ -6,7 +6,7 @@ function AboutHeader() {
     <div id='about'>
         <Container>
             <div className='about-text'>
-                <h1>Codifique seu caminho para o sucesso!</h1>    
+                <h1 className='text-white'>Codifique seu caminho para o sucesso!</h1>    
             </div>
         </Container>
     </div>
