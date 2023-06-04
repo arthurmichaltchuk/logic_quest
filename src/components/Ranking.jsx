@@ -1,19 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-import Podio from '../assets/images/NewPodio.png';
-import RankingImg from '../assets/images/RankingImg.png'
-
-function Ranking() {
-    return (
-        <div className="fundoEsperaRanking">
-  
-                <img src={RankingImg} alt="Ranking"></img>
-
-            <div className="NewPodio">
-
-                <img src={Podio} alt="Pódio" />
-            </div>
-=======
 import { Container, Row, Col } from 'react-bootstrap';
 import img1 from '../assets/images/logoLogicQuest.png'
 
@@ -49,7 +34,6 @@ function Ranking() {
                     </Row>
                 </div>
             </Container>
->>>>>>> f9af2c5e224e058085a6056194b5afb8b7bf113d
         </div>
     );
 }

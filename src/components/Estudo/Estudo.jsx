@@ -9,11 +9,11 @@ function Estudo() {
     let modalBody;
     let progress = 0;
 
-    useEffect(() =>{
+    useEffect(() => {
         setTimeout(() => {
             window.location.href = "/perguntas";
         }, "100000");
-    }, [])   
+    }, [])
 
     function page1ModalCadastro() {
         return (
@@ -108,27 +108,30 @@ function Estudo() {
 
     return (
         <>
-            <div className="fundoBtns">
-                <Container>
-                    {modalBody}
-                    <ProgressBar now={progress} className="progressBar" />
-                </Container>
+            <div className="fundo pb-5">
+                <div className="fundoBtns">
+                    <Container>
+                        {modalBody}
+                        <ProgressBar now={progress} className="progressBar" />
+                    </Container>
 
-                <Row className="rowEstudo">
-                    {currentPage !== 1 && (
+                    <Row className="rowEstudo">
+                        {currentPage !== 1 && (
+                            <Col className="colEstudo">
+                                <Button className="btnForm btnAnterior" onClick={handlePreviusClick}>
+                                    Voltar
+                                </Button>
+                            </Col>
+                        )}
                         <Col className="colEstudo">
-                            <Button className="btnForm btnAnterior" onClick={handlePreviusClick}>
-                                Voltar
+                            <Button className="btnForm btnProximo" onClick={handleNextClick}>
+                                Próximo
                             </Button>
                         </Col>
-                    )}
-                    <Col className="colEstudo">
-                        <Button className="btnForm btnProximo" onClick={handleNextClick}>
-                            Próximo
-                        </Button>
-                    </Col>
-                </Row>
+                    </Row>
+                </div>
             </div>
+
 
         </>
     );

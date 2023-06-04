@@ -125,20 +125,21 @@ nav .menu-btn:checked~.menu {
 
 .fundoEspera {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
-  padding: 10% 0 0 0;
-  height: 550px;
+  height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .fundoEsperaRanking {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
   padding: 5% 0 0 0;
   height: 100%;
   display: flex;
- 
+
 
 }
+
 .fundoEsperaRanking img {
   padding: 0 5%;
   height: 50px;
@@ -148,7 +149,8 @@ nav .menu-btn:checked~.menu {
   background-image: linear-gradient(to top, #00006A 0%, #5A7DF1 50%, #BADEFF 100%);
 }
 
-.podio img{
+
+.podio img {
   padding: 5%;
   height: 500px;
 }
@@ -225,7 +227,7 @@ nav .menu-btn:checked~.menu {
   margin-bottom: 20px;
 }
 
-.btnForm{
+.btnForm {
   height: 70px;
   width: 100%;
   border-radius: 0 !important;
@@ -244,25 +246,25 @@ nav .menu-btn:checked~.menu {
 .btn1 {
   background-image: linear-gradient(to left, #ff2828 0%, #ff0000 10%, #700000 100%) !important;
   color: #000000 !important;
-  height: 80px !important; 
+  height: 80px !important;
 }
 
 .btn2 {
   background-image: linear-gradient(to right, #00b7ff 0%, #00a7f5 10%, #00006A 100%) !important;
   color: #000000 !important;
-  height: 80px !important; 
+  height: 80px !important;
 }
 
 .btn3 {
   background-image: linear-gradient(to left, #ffd000 0%, #fffb00 10%, #a57900 100%) !important;
   color: #000000 !important;
-  height: 80px !important; 
+  height: 80px !important;
 }
 
 .btn4 {
   background-image: linear-gradient(to right, #ffa600 0%, #f5c800 10%, #ff3300 100%) !important;
   color: #000000 !important;
-  height: 80px !important; 
+  height: 80px !important;
 }
 
 .colEstudo {

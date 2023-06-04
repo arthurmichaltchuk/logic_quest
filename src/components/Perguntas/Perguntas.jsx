@@ -11,12 +11,12 @@ function Perguntas() {
     let modalBody;
     let progress = 0;
     let perguntas = [[],
-        ['1 1', '1 2', '1 3', '1 4'], //RESPOSTAS 1
-        ['2 1', '2 2', '2 3', '2 4'], //RESPOSTAS 2
-        ['3 1', '3 2', '3 3', '3 4'], //RESPOSTAS 3
-        ['41', '4 2', '4 3', '4 4'], //RESPOSTAS 4
-        ['5 1', '5 2', '5 3', '5 4'], //RESPOSTAS 5
-        ['6 1', '6 2', '6 3', '6 4'], //RESPOSTAS 6
+    ['1 1', '1 2', '1 3', '1 4'], //RESPOSTAS 1
+    ['2 1', '2 2', '2 3', '2 4'], //RESPOSTAS 2
+    ['3 1', '3 2', '3 3', '3 4'], //RESPOSTAS 3
+    ['41', '4 2', '4 3', '4 4'], //RESPOSTAS 4
+    ['5 1', '5 2', '5 3', '5 4'], //RESPOSTAS 5
+    ['6 1', '6 2', '6 3', '6 4'], //RESPOSTAS 6
     ];
 
     function page1ModalCadastro() {
@@ -69,15 +69,15 @@ function Perguntas() {
 
     function handleClick(resposta) {
         const novasRespostas = [...respostas, resposta];
-    
+
         if (currentPage === 6) {
-          console.log(novasRespostas);
-          window.location.href = '/ranking';
+            console.log(novasRespostas);
+            window.location.href = '/ranking';
         } else {
-          setRespostas(novasRespostas);
-          setCurrentPage(currentPage + 1);
+            setRespostas(novasRespostas);
+            setCurrentPage(currentPage + 1);
         }
-      }
+    }
 
     if (currentPage === 1) {
         modalBody = page1ModalCadastro();
@@ -106,39 +106,42 @@ function Perguntas() {
 
     return (
         <>
-            <div className="fundoBtns">
-                <Container>
-                    {modalBody}
-                    <ProgressBar now={progress} className="progressBar" />
-                </Container>
+            <div className="fundo">
+                <div className="fundoBtns">
+                    <Container>
+                        {modalBody}
+                        <ProgressBar now={progress} className="progressBar" />
+                    </Container>
 
-                <Row className="rowEstudo">
+                    <Row className="rowEstudo">
 
-                    <Col className="colEstudo">
-                        <Button className="btnForm btn1" onClick={() => handleClick(1)}>
-                            {perguntas[currentPage] && perguntas[currentPage][0]}
-                        </Button>
-                    </Col>
-                    <Col className="colEstudo">
-                        <Button className="btnForm btn2" onClick={() => handleClick(2)}>
-                            {perguntas[currentPage] && perguntas[currentPage][1]}
-                        </Button>
-                    </Col>
-                </Row>
-                <Row className="rowEstudo">
+                        <Col className="colEstudo">
+                            <Button className="btnForm btn1" onClick={() => handleClick(1)}>
+                                {perguntas[currentPage] && perguntas[currentPage][0]}
+                            </Button>
+                        </Col>
+                        <Col className="colEstudo">
+                            <Button className="btnForm btn2" onClick={() => handleClick(2)}>
+                                {perguntas[currentPage] && perguntas[currentPage][1]}
+                            </Button>
+                        </Col>
+                    </Row>
+                    <Row className="rowEstudo">
 
-                    <Col className="colEstudo">
-                        <Button className="btnForm btn3" onClick={() => handleClick(3)}>
-                            {perguntas[currentPage] && perguntas[currentPage][0]}
-                        </Button>
-                    </Col>
-                    <Col className="colEstudo">
-                        <Button className="btnForm btn4" onClick={() => handleClick(4)}>
-                            {perguntas[currentPage] && perguntas[currentPage][1]}
-                        </Button>
-                    </Col>
-                </Row>
+                        <Col className="colEstudo">
+                            <Button className="btnForm btn3" onClick={() => handleClick(3)}>
+                                {perguntas[currentPage] && perguntas[currentPage][0]}
+                            </Button>
+                        </Col>
+                        <Col className="colEstudo">
+                            <Button className="btnForm btn4" onClick={() => handleClick(4)}>
+                                {perguntas[currentPage] && perguntas[currentPage][1]}
+                            </Button>
+                        </Col>
+                    </Row>
+                </div>
             </div>
+
 
         </>
     );
