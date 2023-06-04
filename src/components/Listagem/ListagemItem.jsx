@@ -26,7 +26,7 @@ function ListagemItem(props) {
                         <Form className="d-flex">
                             <Form.Control
                                 type="search"
-                                placeholder="PIN do jogo"
+                                placeholder="Digite seu nome"
                                 className="me-2"
                                 aria-label="Search"
                             />

@@ -12,7 +12,7 @@ function Estudo() {
     useEffect(() =>{
         setTimeout(() => {
             window.location.href = "/perguntas";
-        }, "10000");
+        }, "100000");
     }, [])   
 
     function page1ModalCadastro() {
