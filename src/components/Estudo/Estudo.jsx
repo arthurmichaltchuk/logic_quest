@@ -18,8 +18,8 @@ function Estudo() {
     function page1ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>O polimorfismo é um conceito fundamental na programação orientada a objetos (POO) que permite que objetos de diferentes classes sejam tratados de maneira uniforme, como se fossem do mesmo tipo. Em outras palavras, o polimorfismo permite que um objeto seja referenciado por meio de uma interface comum, independentemente de sua classe concreta.
-                    <br /><br />O termo "polimorfismo" vem das palavras gregas "poli" (muitos) e "morphos" (formas). Ele reflete a ideia de que um objeto pode assumir muitas formas, dependendo do contexto em que é usado.
+                <h1>
+                    O polimorfismo é um conceito fundamental na programação orientada a objetos. Ele se refere à capacidade de uma classe ter várias formas ou comportamentos. Por meio da herança, um objeto de uma classe derivada pode ser tratado como um objeto da classe base. Esse princípio de polimorfismo é conhecido como herança.
                 </h1>
             </div>
         );
@@ -28,7 +28,7 @@ function Estudo() {
     function page2ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>O polimorfismo é alcançado por meio de mecanismos como herança, interfaces, sobrescrita de métodos e sobrecarga de métodos. Esses mecanismos permitem que diferentes objetos compartilhem uma mesma interface ou comportamento comum, mas possuam implementações específicas.</h1>
+                <h1>Existem duas formas de polimorfismo: estático e dinâmico. O polimorfismo estático é resolvido em tempo de compilação, enquanto o polimorfismo dinâmico é resolvido em tempo de execução. No polimorfismo estático, as decisões são tomadas com base nos tipos estáticos dos objetos, enquanto no polimorfismo dinâmico as decisões são tomadas com base nos tipos reais dos objetos em tempo de execução.</h1>
             </div>
         );
     }
@@ -37,7 +37,7 @@ function Estudo() {
         return (
             // Ajuda aí pfvr **** :D
             <div className="estudoBody">
-                <h1>Polimorfismo de Substituição (ou polimorfismo de tipo): Também conhecido como polimorfismo estático, ocorre quando uma classe derivada substitui um método de sua classe base. Nesse caso, o objeto pode ser tratado como uma instância da classe base ou da classe derivada, dependendo do contexto. O polimorfismo de substituição é uma característica inerente à hierarquia de classes e é alcançado por meio da palavra-chave 'override'.</h1>
+                <h1>Uma das características do polimorfismo é a sobreposição (overriding). A sobreposição ocorre quando uma classe derivada fornece uma implementação específica de um método definido em sua classe base. Isso permite que a classe derivada substitua o comportamento padrão da classe base com sua própria implementação.</h1>
             </div>
         );
     }
@@ -45,7 +45,7 @@ function Estudo() {
     function page4ModalCadastro() {
         return (
             <div className="estudoBody">
-                <h1>Polimorfismo de Sobrecarga (ou polimorfismo de parâmetros): Esse tipo de polimorfismo ocorre quando uma classe possui vários métodos com o mesmo nome, mas com parâmetros diferentes. Cada método pode executar uma ação específica com base nos parâmetros fornecidos. Durante a compilação, o compilador decide qual método deve ser chamado com base nos argumentos passados.</h1>
+                <h1>Em C#, a palavra-chave usada para indicar que um método está sendo sobreposto (overridden) em uma classe derivada é "override". Essa palavra-chave informa ao compilador que a implementação do método na classe derivada está substituindo a implementação da classe base.</h1>
             </div>
         );
     }
@@ -108,7 +108,7 @@ function Estudo() {
 
     return (
         <>
-            <div className="fundo pb-5">
+            <div className="fundo">
                 <div className="fundoBtns">
                     <Container>
                         {modalBody}
