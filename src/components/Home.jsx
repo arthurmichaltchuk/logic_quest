@@ -2,9 +2,20 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import logo from '../assets/images/logoLogicQuest.png';
 import Button from 'react-bootstrap/Button';
-import AboutHeader from './AboutHeader.jsx'
+import AboutHeader from './AboutHeader.jsx';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 function Home() {
+    const navigate = useNavigate();
+
+    const handleJogar = () => {
+        navigate('/listagem')
+    }
+
     return (
         <>
             <div className="presentation">
@@ -15,9 +26,7 @@ function Home() {
                                 <img src={logo} className="presentationImage" alt="Logo" />
                             </Col>
                             <Col>
-                                <a href="/listagem">
-                                    <Button className="presentationBtn">JOGAR</Button>{' '}
-                                </a>
+                                <Button className="presentationBtn" onClick={handleJogar}>JOGAR</Button>{' '}
                             </Col>
                         </Row>
                     </div>
